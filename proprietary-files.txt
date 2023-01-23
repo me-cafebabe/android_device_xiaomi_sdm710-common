@@ -1,5 +1,6 @@
 # Unpinned blobs from grus-user 11 RKQ1.200826.002 V12.5.1.0.RFBMIXM release-keys
 # pyxis: pyxis-user 11 RKQ1.200826.002 V12.5.2.0.RFCMIXM release-keys
+# beryllium: V12.0.3.0.QEJMIXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -13,6 +14,9 @@ vendor/lib64/libadsprpc.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 
+# ADSP modules - from beryllium
+vendor/lib/rfsa/adsp/libdirac-capiv2.so
+
 # Audio
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -24,6 +28,9 @@ vendor/lib/libqtigef.so
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
+
+# Audio FX modules - from beryllium
+vendor/lib/soundfx/libdirac.so
 
 # Bluetooth - from pyxis
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
