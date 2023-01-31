@@ -112,7 +112,7 @@ BOARD_SUPER_PARTITION_METADATA_DEVICE := system
 # Partitions - reserved size
 $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_EXTFS_INODE_COUNT := -1))
-ifeq ($(WITH_GMS),true)
+ifeq ($(MIKU_GAPPS),true)
 SSI_PARTITIONS_RESERVED_SIZE := 209715200
 else
 SSI_PARTITIONS_RESERVED_SIZE := 838860800
