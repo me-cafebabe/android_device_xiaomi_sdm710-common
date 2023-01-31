@@ -163,7 +163,7 @@ endif
 
 # FM
 ifeq ($(TARGET_HAS_FM),true)
-PRODUCT_PACKAGES += \
+NO_PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio
