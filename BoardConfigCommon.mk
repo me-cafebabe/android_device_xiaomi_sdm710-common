@@ -198,3 +198,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 include vendor/xiaomi/sdm710-common/BoardConfigVendor.mk
+
+# Inherit extra if exists
+-include vendor/extra/BoardConfigExtra.mk

@@ -427,3 +427,6 @@ $(call inherit-product, vendor/xiaomi/sdm710-common/sdm710-common-vendor.mk)
 
 # Extra
 EXTRA_DEVICE_BRACKET := mid-range
+
+# Inherit extra if exists
+$(call inherit-product-if-exists, vendor/extra/product.mk)
