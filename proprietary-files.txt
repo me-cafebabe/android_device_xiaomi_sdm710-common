@@ -25,6 +25,7 @@ vendor/lib/libacdbloader.so|d1a0c21891a0aead55fd41e430ac10347b5aebab
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libshoebox.so
 
 # Bluetooth
